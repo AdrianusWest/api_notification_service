@@ -1,3 +1,7 @@
+[![Python CI](https://github.com/AdrianusWest/api_notification_service/actions/workflows/pyci.yml/badge.svg)](https://github.com/AdrianusWest/api_notification_service/actions/workflows/pyci.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/475801c9e86334c1fc2e/maintainability)](https://codeclimate.com/github/AdrianusWest/api_notification_service/maintainability)
+
+
 # Сервис уведомлений
 
 Сервис разработан с использованием DRF (Django Rest Framework), Celery и Flower.
