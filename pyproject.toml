@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "api_notification_service"
+version = "0.1.0"
+description = "API Notification Service"
+authors = ["Adrianus West <adrianus_west@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "poetry export -f requirements.txt > requirements.txt"
+packages = [
+  { include = "notification_service" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.4"
+celery = "^5.2.7"
+flower = "^1.2.0"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.4"
+python-dotenv = "^0.21.0"
+psycopg2 = "^2.9.5"
+django-prometheus = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+flake8-blind-except = "^0.2.1"
+flake8-bugbear = "^22.9.23"
+flake8-builtins = "^2.0.1"
+flake8-cognitive-complexity = "^0.1.0"
+flake8-commas = "^2.1.0"
+flake8-comprehensions = "^3.10.0"
+flake8-debugger = "^4.1.2"
+flake8-import-order = "^0.18.2"
+flake8-mutable = "^1.2.0"
+flake8-polyfill = "^1.0.2"
+flake8-print = "^5.0.0"
+flake8-string-format = "^0.3.0"
+pep8-naming = "^0.13.2"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
