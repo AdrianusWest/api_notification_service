@@ -6,7 +6,7 @@ authors = ["Adrianus West <adrianus_west@protonmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = ""
-repository = "poetry export -f requirements.txt > requirements.txt"
+repository = "https://github.com/AdrianusWest/api_notification_service"
 packages = [
   { include = "notification_service" },
 ]
