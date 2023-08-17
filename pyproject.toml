@@ -12,13 +12,13 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11.3"
 Django = "^4.1.6"
 celery = "^5.2.7"
-flower = "^1.2.0"
+flower = "^2.0.1"
 djangorestframework = "^3.14.0"
 drf-yasg = "^1.21.5"
-python-dotenv = "^0.21.1"
+python-dotenv = "^1.0.0"
 psycopg2 = "^2.9.5"
 django-prometheus = "^2.2.0"
 
